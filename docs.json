@@ -12,11 +12,17 @@
     "strict": true
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        { "anchor": "Lumite Studios", "href": "https://lumitestudios.com" }
-      ]
-    },
+    "dropdowns": [
+      {
+        "dropdown": "Documentation",
+        "icon": "book-open",
+        "pages": [
+          "quickstart",
+          "development",
+          "navigation"
+        ]
+      }
+    ],
     "groups": [
       {
         "group": "Get Started",
